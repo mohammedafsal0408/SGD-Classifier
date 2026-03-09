@@ -21,6 +21,7 @@ Developed by: MOHAMMED AFSAL S
 RegisterNumber: 212225040247 
 */
 ```
+```
 # Import required libraries
 import pandas as pd
 from sklearn.datasets import load_iris
@@ -83,7 +84,6 @@ print(confusion_matrix(y_test, y_pred))
 
 print("\nClassification Report:\n")
 print(classification_report(y_test, y_pred))
-
 ```
 
 ## Output:
